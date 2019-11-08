@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/tela">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="STAR WARS"
+    android:textAlignment="center"
+    android:textSize="60dp"
+    android:layout_marginTop="30dp"
+    android:layout_gravity="center"
+    android:fontFamily="sans-serif-light"
+
+    android:textColor="#0F0F0F"
+    />
+    <ListView
+        android:layout_width="900px"
+        android:layout_height="1500px"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/redondo"
+        android:id="@+id/lista"
+        android:c
+        />
+
+</LinearLayout>
